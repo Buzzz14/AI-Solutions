@@ -1,5 +1,6 @@
 import React from 'react';
 import ChangePasswordForm from '../../components/admin/settings/ChangePasswordForm';
+import SiteControlForm from '../../components/admin/settings/SiteControlForm';
 
 const SettingsPage = () => {
   return (
@@ -8,6 +9,7 @@ const SettingsPage = () => {
         <h1 className="text-2xl font-bold text-gray-900">Settings</h1>
       </div>
       
+      <SiteControlForm />
       <ChangePasswordForm />
     </div>
   );

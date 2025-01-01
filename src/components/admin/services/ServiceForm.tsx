@@ -48,10 +48,11 @@ const ServiceForm: React.FC<ServiceFormProps> = ({ service, onSubmit, onCancel }
           required
           className="mt-1 block w-full rounded-md border border-gray-50 p-2 shadow outline-none"
         >
-          <option value="brain">Brain</option>
+          <option value="bot">Bot</option>
           <option value="code">Code</option>
-          <option value="database">Database</option>
           <option value="cpu">CPU</option>
+          <option value="lineChart">Line Chart</option>
+          <option value="database">Database</option>
           <option value="shield">Shield</option>
         </select>
       </div>
